@@ -13,3 +13,9 @@ There's 3 main javascript files:
 + animation.js: Contains all the methods used to update and draw the canvas.
 
 The rest of the configuration is inside index.html, because these paremeters depends on the project's specific functionality.
+
+The var total inside index.html defines how many ball you want to start, and you can add more balls this way:
+
+1. Click and drag to define radius
+2. Click and drag again to define initial speed and direction
+3. Release and shoot!
