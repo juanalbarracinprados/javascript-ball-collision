@@ -7,7 +7,7 @@
 Javascript based 2d physics inside a canvas, hardware accelerated.
 It's an experimental project to test the limits of canvas rendering, having some fun.
 
-[![Build Status](https://www.prokom.es/balls.png)]
+(https://www.prokom.es/balls.png)
 
 There's 3 main javascript files:
 + Ball.js: The ball prototype, which contains all the necessary variables and methods to define and animate the ball.
