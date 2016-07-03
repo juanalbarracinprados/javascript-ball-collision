@@ -33,9 +33,7 @@
 			window.onresize = function(event)
 			{
 				stage.width = 10;
-				stage.height = 10;
 				stage.width = $(document).width();
-				stage.height = $(document).height();
 			}
 			
 			generate();
