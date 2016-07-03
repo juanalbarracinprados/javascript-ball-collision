@@ -136,12 +136,12 @@
   				if(IE)
   				{
   					mousePos.x = event.clientX + document.body.scrollLeft
-  					mousePos.y = event.clientY + document.body.scrollTop
+  					mousePos.y = event.clientY + document.body.scrollTop - $("#stage").position().top
   				}
   				else
   				{
   					mousePos.x = e.pageX
-  					mousePos.y = e.pageY
+  					mousePos.y = e.pageY - $("#stage").position().top
   				}
   				if(mousePos.x < 0) {mousePos.x = 0;}
   				if(mousePos.y < 0) {mousePos.y = 0;}  
