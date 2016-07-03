@@ -20,7 +20,6 @@
 		        right: 0
 		    }
 			stage.width = $(document).width();
-			stage.height = $(document).height();
 			if(drawingCanvas.getContext)
 			{
 				var context = drawingCanvas.getContext('2d');
