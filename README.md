@@ -1,4 +1,4 @@
-[![Build Status](https://www.prokom.es/badge.svg)](https://juanalbarracin.com)
+[![Build Status](https://www.prokom.es/tryit.svg)](https://juanalbarracin.com)
 
 
 2D Ball Collision Javascript
