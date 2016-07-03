@@ -6,7 +6,7 @@
 			var browserX = window.screenX;
 			var browserY = window.screenY;
 			var balls = [];
-			var total = 100;
+			var total = 15;
 			var rozamiento = .98;
 			var currentDrag = null;
 			var mousePos = new Vector(0,0);
