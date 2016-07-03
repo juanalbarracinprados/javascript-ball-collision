@@ -42,7 +42,7 @@ function draw() {
 			mouseBall.radius=mousePos.dist(mouseStart);
 		}else if (mouseState==3){
 			context.lineWidth=3;
-			context.strokeStyle='#FFF';
+			context.strokeStyle='#000';
 			context.beginPath();
 			context.moveTo(mouseStart.x,mouseStart.y);
 			context.lineTo(mousePos.x,mousePos.y);
